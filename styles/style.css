@@ -22,6 +22,7 @@
   margin: 0 0 0 64px;
   line-height: 96px;
   width: 730px;
+  z-index: 1;
 }
 
 .header__subtitle {
@@ -44,10 +45,11 @@
   content: '→';
 }
 
+.header__link:hover {
+  text-decoration: underline;
+}
+
 .header__main-illustration {
-  background-image: url(../images/header-image.png);
-  background-repeat: no-repeat;
-  background-size: cover;
   bottom: 0;
   height: 608px;
   position: absolute;
@@ -200,21 +202,24 @@
   line-height: 1.2;
   font-size: 18px;
 }
-/** Блок feinman **/
 
-.feinman {
-  height: 790px;
+/** Блок feynman **/
+
+.feynman {
+  min-height: 790px;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
+  background-color: #f2f2f2;
   background-image: url(../images/feynman.png);
   background-repeat: no-repeat;
   background-position: bottom left;
   background-size: 867px 637px;
+  padding-top: 100px;
 }
 
-.feinman__title {
+.feynman__title {
   width: 648px;
   text-align: center;
   line-height: 1.15;
@@ -222,13 +227,13 @@
   margin: 0 0 70px;
 }
 
-.feinman__subtitle {
+.feynman__subtitle {
   margin: 0;
   line-height: 51px;
   font-size: 36px;
 }
 
-.feinman__link {
+.feynman__link {
   position: absolute;
   right: 0;
   top: 50%;
@@ -238,8 +243,12 @@
   color: #2f80ed;
 }
 
-.feinman__link:after {
+.feynman__link:after {
   content: '→';
+}
+
+.feynman__link:hover {
+  text-decoration: underline;
 }
 
 /** Блок kaufman **/
@@ -270,6 +279,7 @@
 /** Блок footer **/
 
 .footer {
+  box-sizing: border-box;
   min-height: 350px;
   padding-top: 60px;
   padding-bottom: 40px;
@@ -285,7 +295,7 @@
   justify-content: space-between;
 }
 
-.footer__columns_content_copyright {
+.footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
@@ -293,6 +303,7 @@
 }
 
 .footer__author {
+  margin: 0;
   padding: 18px 0;
   line-height: 25px;
   font-size: 18px;
@@ -307,8 +318,6 @@
 
 .footer__column-links {
   padding: 0;
-  display: flex;
-  flex-direction: column;
   margin: 0 0 16px;
   list-style: none;
 }
@@ -318,6 +327,10 @@
   font-size: 18px;
   text-decoration: none;
   color: #fff;
+}
+
+.footer__column-link:hover {
+  text-decoration: underline;
 }
 
 .footer__social-icon {
