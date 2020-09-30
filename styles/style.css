@@ -161,7 +161,7 @@
 }
 
 .section-subtitle_theme_dark {
-  color: #fff
+  color: #fff;
 }
 
 /** Блок таблицы **/
@@ -183,6 +183,8 @@
 
 .table__cell_theme_dark {
   width: 200px;
+  color: #fff;
+  margin-right: 0;
   margin-top: 80px;
 }
 
@@ -198,14 +200,6 @@
   line-height: 1.2;
   font-size: 18px;
 }
-
-.table__cell_theme_dark {
-  width: 200px;
-  color: #fff;
-  margin-right: 0;
-  margin-top: 80px;
-}
-
 /** Блок feinman **/
 
 .feinman {
