@@ -21,4 +21,5 @@
 @import "blocks/table/table.css";
 @import "blocks/table/_theme/table_theme_dark.css";
 @import "blocks/kaufman/kaufman.css";
+@import "blocks/resources/resources.css";
 @import "blocks/footer/footer.css";

@@ -38,7 +38,7 @@
 }
 
 .feynman__link:after {
-  content: '→';
+  content: ' →';
 }
 
 .feynman__link:hover {

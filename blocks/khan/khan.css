@@ -43,6 +43,7 @@
 
 .khan__book-container {
   display: flex;
+  align-items: flex-start;
 }
 
 .khan__book-pic {
@@ -62,7 +63,7 @@
 }
 
 .khan__book-link:after {
-  content: '→';
+  content: ' →';
 }
 
 .khan__book-link:hover {
