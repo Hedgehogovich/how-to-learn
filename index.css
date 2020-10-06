@@ -7,6 +7,8 @@
 @import "blocks/logo/_place/logo_place_footer.css";
 @import "blocks/description/description.css";
 @import "blocks/two-columns/two-columns.css";
+@import "blocks/techniques/techniques.css";
+@import "blocks/cards/cards.css";
 @import "blocks/digits/digits.css";
 @import "blocks/section-title/section-title.css";
 @import "blocks/section-title/_theme/section-title_theme_dark.css";
