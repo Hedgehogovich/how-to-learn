@@ -1,4 +1,4 @@
-@import "styles/normalize.css";
+@import "vendor/normalize.css";
 @import "blocks/page/page.css";
 @import "blocks/rotation/rotation.css";
 @import "blocks/header/header.css";
