@@ -1,0 +1,60 @@
+.header {
+  background-color: #f2f2f2;
+  display: flex;
+  height: 100vh;
+  max-height: 756px;
+  min-height: 600px;
+  position: relative;
+  overflow: hidden;
+}
+
+.header__title {
+  align-self: center;
+  font-size: 102px;
+  margin: 0 0 0 64px;
+  line-height: 96px;
+  width: 730px;
+  z-index: 1;
+}
+
+.header__subtitle {
+  bottom: 30px;
+  font-size: 18px;
+  left: 64px;
+  line-height: 25px;
+  position: absolute;
+  width: 388px;
+  z-index: 1;
+  margin: 0;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.header__link:after {
+  content: '→';
+}
+
+.header__link:hover {
+  text-decoration: underline;
+}
+
+.header__main-illustration {
+  bottom: 0;
+  height: 608px;
+  position: absolute;
+  right: 0;
+  width: 765px;
+}
+
+.header__square-pic {
+  background-color: #2f80ed;
+  height: 568px;
+  position: absolute;
+  right: 0;
+  top: 64px;
+  width: 568px;
+  transform: rotate(-15deg);
+}
