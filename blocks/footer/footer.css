@@ -47,10 +47,11 @@
   font-size: 18px;
   text-decoration: none;
   color: #fff;
+  transition: opacity .15s linear;
 }
 
 .footer__column-link:hover {
-  text-decoration: underline;
+  opacity: .7;
 }
 
 .footer__social-icon {

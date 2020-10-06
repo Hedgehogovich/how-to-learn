@@ -31,6 +31,7 @@
 .header__link {
   text-decoration: none;
   color: #2f80ed;
+  transition: opacity .15s linear;
 }
 
 .header__link:after {
@@ -38,7 +39,7 @@
 }
 
 .header__link:hover {
-  text-decoration: underline;
+  opacity: .7;
 }
 
 .header__main-illustration {
