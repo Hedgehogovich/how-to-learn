@@ -1,5 +1,8 @@
+.table_theme_dark {
+  grid-template-columns: repeat(5, 200px);
+}
+
 .table__cell_theme_dark {
-  width: 200px;
   color: #fff;
   margin-right: 0;
   margin-top: 80px;
