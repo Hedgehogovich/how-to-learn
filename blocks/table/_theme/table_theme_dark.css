@@ -1,3 +1,8 @@
 .table_theme_dark {
-  grid-template-columns: repeat(auto-fill, 200px);
+  /*
+  для ie/старого edge нужен нестандартный синтаксис
+  https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/dev-guides/hh673533(v=vs.85)#repeating-grid-tracks
+  */
+  -ms-grid-columns: (200px)[5];
+  grid-template-columns: repeat(5, 200px);
 }
